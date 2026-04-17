@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contentvideoone = () => {
+const ContentVideoone = () => {
   return (
     <section
       id="homepage_company_story"
@@ -79,4 +79,4 @@ const Contentvideoone = () => {
   );
 };
 
-export default Contentvideoone;
+export default ContentVideoone;

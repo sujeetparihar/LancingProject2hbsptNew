@@ -24,7 +24,7 @@ import Contentone from "./components/Contentsection/Contentone";
 import Contenttwo from "./components/Contentsection/Contenttwo";
 import Contentthree from "./components/Contentsection/Contentthree";
 import Contentfour from "./components/Contentsection/Contentfour";
-import Contentvideoone from "./components/Contentsection/ContentVideoone";
+import ContentVideoone from "./components/Contentsection/ContentVideoone";
 import Contentfive from "./components/Contentsection/Contentfive";
 import ContentEight from "./components/Contentsection/ContentEight";
 import Contentnine from "./components/Contentsection/ContentNine";
@@ -54,7 +54,7 @@ const AppRoutes = () => {
   // Routes where we don't want to show header/footer
   const noHeaderFooterRoutes = ["/customer", "/contact", "/starter"];
   const shouldHideHeaderFooter = noHeaderFooterRoutes.some((path) =>
-    location.pathname.toLowerCase().startsWith(path)
+    location.pathname.toLowerCase().startsWith(path),
   );
 
   const Layout = shouldHideHeaderFooter
