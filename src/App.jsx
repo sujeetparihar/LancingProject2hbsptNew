@@ -24,7 +24,7 @@ import Contentone from "./components/Contentsection/Contentone";
 import Contenttwo from "./components/Contentsection/Contenttwo";
 import Contentthree from "./components/Contentsection/Contentthree";
 import Contentfour from "./components/Contentsection/Contentfour";
-import ContentVideoone from "./components/Contentsection/ContentVideoone";
+import Contentvideoone from "./components/Contentsection/Contentvideoone";
 import Contentfive from "./components/Contentsection/Contentfive";
 import ContentEight from "./components/Contentsection/ContentEight";
 import Contentnine from "./components/Contentsection/ContentNine";
