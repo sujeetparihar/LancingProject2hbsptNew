@@ -1,4 +1,6 @@
+import React from "react";
 import { Link } from "react-router-dom";
+
 import {
   FiZap,
   FiStar,
@@ -105,7 +107,8 @@ const ProductsDropdown = () => {
             The HubSpot Customer Platform
           </h2>
           <p className="text-gray-600 max-w-xl">
-            All of HubSpot's marketing, sales, and customer service software on one AI-powered platform.
+            All of HubSpot's marketing, sales, and customer service software on
+            one AI-powered platform.
           </p>
         </div>
         <div className="flex gap-3">
@@ -134,7 +137,10 @@ const ProductsDropdown = () => {
               </h3>
             </div>
             <p className="text-sm text-gray-600">{item.desc}</p>
-            <Link to={item.link} className="text-blue-600 text-sm hover:underline">
+            <Link
+              to={item.link}
+              className="text-blue-600 text-sm hover:underline"
+            >
               {item.linkText}
             </Link>
           </div>
@@ -153,7 +159,10 @@ const ProductsDropdown = () => {
               </h4>
             </div>
             <p className="text-sm text-gray-600">{item.desc}</p>
-            <Link to={item.link} className="text-blue-600 text-sm hover:underline">
+            <Link
+              to={item.link}
+              className="text-blue-600 text-sm hover:underline"
+            >
               {item.linkText}
             </Link>
           </div>
